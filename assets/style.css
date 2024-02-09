@@ -94,6 +94,15 @@ form a:hover{
     column-gap: 20px;
 }
 
+.search-results img{
+    transition: opacity .1s ease, transform .2s cubic-bezier(0,0,.1,0.5);
+  }
+  
+  .search-results img:hover {
+    opacity: 1;
+    transform: scale(1.01);
+  }
+
 .search-results .search-result{
     width: 100%;
     margin-bottom: 10px;
