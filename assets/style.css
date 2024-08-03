@@ -101,6 +101,62 @@ form a:hover{
     color: rgb(220, 0, 0);
 }
 
+
+
+@media (max-width: 1200px){
+    .links a{
+        font-size: 16px;
+    }
+    .logo i{
+        font-size: 26px;
+        margin-left: 20px;
+    }
+    .search{
+        width: 600px;
+        height: 40px;
+    }
+    .icons i{
+        font-size: 22px;
+        margin-right: 20px;
+    }
+}
+@media (max-width: 768px){
+    .links a{
+        display: none;
+    }
+    .logo i{
+        font-size: 26px;
+        margin-left: 20px;
+    }
+    .search{
+        margin-left: 25px;
+        width: 600px;
+        height: 40px;
+    }
+    .icons i{
+        font-size: 22px;
+    }
+}
+@media (max-width: 480px){
+    .search{
+        margin: 0 20px 0 20px;
+        width: 600px;
+        height: 40px;
+    }
+    .search input{
+        font-size: 14px;
+    }
+    .search i{
+        font-size: 14px;
+        margin-left: 10px;
+    }
+    .icons .fa-solid{
+        display: none;
+    }
+}
+
+
+
 /*=========================DROPDOWN=========================*/
 
 .dropdown{
@@ -565,4 +621,31 @@ footer ul li a{
 }
 footer ul li a:hover{
     color: red;
+}
+
+
+@media (max-width: 1200px){
+    footer ul li{
+        font-size: 12px;
+    }
+    footer ul{
+        padding-top: 7px;
+    }
+    footer .credit {
+        padding: .8rem 0 .8rem 0;
+    }
+}
+@media (max-width: 480px){
+    footer .credit{
+        font-size: 14px;
+    }
+    footer ul li{
+        display: none;
+    }
+    footer .credit {
+        padding: .3rem 0 .3rem 0;
+    }
+    footer .fa{
+        font-size: 1.2rem;
+    }
 }
